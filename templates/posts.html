@@ -1,0 +1,38 @@
+{# Complete list of posts #}
+
+{% extends "base.html" %}
+
+
+{% block main %}
+
+
+<body>
+    <section id="content">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                       <p><a href="/">go back home</a></p>
+                    <div style="text-align: left;">
+
+                        {% for post in posts|sort(reverse = true, attribute='date') %}
+    <a href="/posts/{{ post.slug }}"><h2>{{ post.title}}</h2></a>
+{% endfor %}
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+</body>
+
+
+{% endblock %}
