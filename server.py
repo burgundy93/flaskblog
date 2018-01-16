@@ -22,7 +22,7 @@ def blog():
     posts = posts_objects.posts
     return render_template('posts.html', posts=posts)
 
-@app.route('/posts/<slug>')
+@app.route('/<slug>')
 def single_blog(slug):
     # Shows individual post
     # TODO: normal 404 if not found
