@@ -3,7 +3,7 @@ from flask import Flask
 from flask import render_template
 from jinja2 import Template
 import os
-from . utils import PostsParser
+from utils import PostsParser
 
 app = Flask(__name__)
 
@@ -42,3 +42,7 @@ def single_blog(slug):
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
