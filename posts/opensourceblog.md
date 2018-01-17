@@ -2,7 +2,7 @@
 ##title: Building an Open Source project from problem to production ready in 3 Days ./title
 ##author: Ronald ./author
 ##date: 2018/01/18 ./date
-##slug: getting-started ./slug
+##slug: building-open-source-flask-blog ./slug
 ./VARS -->
 
 It's a Long post, so TLDR:
@@ -78,4 +78,3 @@ I hooked up the rest to the [jinja](http://jinja.pocoo.org/) templates and it wa
 [Here it is.](https://github.com/burgundy93/FlatFileFlaskBlog)
 
 Feel free to contribute and / or fork it.
-
