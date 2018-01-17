@@ -57,6 +57,11 @@ It was getting late already so I decided to push everything to github and start 
 After about an hour (I was asleep already) this legend, [Luuc Verburgh](https://twitter.com/luucvp) from the Netherlands replied. 
 
 
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">Open it up!! haha <a href="https://t.co/AGFEiLEQLn">pic.twitter.com/AGFEiLEQLn</a></p>&mdash; Luuc Verburgh (@luucvp) <a href="https://twitter.com/luucvp/status/952281202467266560?ref_src=twsrc%5Etfw">13 January 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
 The next morning I gave him access to the repository so he can push and pull from the git as he pleases.
 
 Luuc is also in the [wip.chat](https://wip.chat/) telegram group, so I could easily find him on Telegram and where could send each other occasionally a message should we need to confirm something. 
