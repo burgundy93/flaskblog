@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30452cd9-9e97-4e1e-9a55-f3f79b3ac2d0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/texts.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/server.py" afterPath="$PROJECT_DIR$/server.py" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/static/img/profile.jpg" afterPath="$PROJECT_DIR$/static/img/profile.jpg" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/templates/single-post.html" afterPath="$PROJECT_DIR$/templates/single-post.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,15 +13,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            <state relative-caret-position="288">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding>
-                <element signature="e#887#907#0#HTML" expanded="true" />
-                <element signature="e#1346#1366#0#HTML" expanded="true" />
-                <element signature="e#1742#1768#0#HTML" expanded="true" />
+                <element signature="e#974#994#0#HTML" expanded="true" />
+                <element signature="e#1433#1453#0#HTML" expanded="true" />
+                <element signature="e#1829#1855#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single-post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/single-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
+            <state relative-caret-position="500">
               <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding />
             </state>
@@ -77,8 +70,8 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -146,12 +139,12 @@
         <option value="$PROJECT_DIR$/posts/surferbot.md" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/static/css/simple-grid.css" />
-        <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/static/css/texts.css" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/single-post.html" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -320,9 +313,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#887#907#0#HTML" expanded="true" />
-            <element signature="e#1346#1366#0#HTML" expanded="true" />
-            <element signature="e#1742#1768#0#HTML" expanded="true" />
+            <element signature="e#974#994#0#HTML" expanded="true" />
+            <element signature="e#1433#1453#0#HTML" expanded="true" />
+            <element signature="e#1829#1855#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,9 +393,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#887#907#0#HTML" expanded="true" />
-            <element signature="e#1346#1366#0#HTML" expanded="true" />
-            <element signature="e#1742#1768#0#HTML" expanded="true" />
+            <element signature="e#974#994#0#HTML" expanded="true" />
+            <element signature="e#1433#1453#0#HTML" expanded="true" />
+            <element signature="e#1829#1855#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,9 +473,9 @@
         <state relative-caret-position="570">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <element signature="e#887#907#0#HTML" expanded="true" />
-            <element signature="e#1346#1366#0#HTML" expanded="true" />
-            <element signature="e#1742#1768#0#HTML" expanded="true" />
+            <element signature="e#974#994#0#HTML" expanded="true" />
+            <element signature="e#1433#1453#0#HTML" expanded="true" />
+            <element signature="e#1829#1855#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,9 +545,9 @@
         <state relative-caret-position="570">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <element signature="e#887#907#0#HTML" expanded="true" />
-            <element signature="e#1346#1366#0#HTML" expanded="true" />
-            <element signature="e#1742#1768#0#HTML" expanded="true" />
+            <element signature="e#974#994#0#HTML" expanded="true" />
+            <element signature="e#1433#1453#0#HTML" expanded="true" />
+            <element signature="e#1829#1855#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,9 +625,9 @@
         <state relative-caret-position="570">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <element signature="e#887#907#0#HTML" expanded="true" />
-            <element signature="e#1346#1366#0#HTML" expanded="true" />
-            <element signature="e#1742#1768#0#HTML" expanded="true" />
+            <element signature="e#974#994#0#HTML" expanded="true" />
+            <element signature="e#1433#1453#0#HTML" expanded="true" />
+            <element signature="e#1829#1855#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,18 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding>
-            <element signature="e#887#907#0#HTML" expanded="true" />
-            <element signature="e#1346#1366#0#HTML" expanded="true" />
-            <element signature="e#1742#1768#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2214">
@@ -739,6 +720,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/surferbot.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="93">
+            <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/texts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -756,42 +758,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/surferbot.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="93">
-            <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/texts.css">
+    <entry file="file://$PROJECT_DIR$/templates/single-post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
+        <state relative-caret-position="500">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/single-post.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#974#994#0#HTML" expanded="true" />
+            <element signature="e#1433#1453#0#HTML" expanded="true" />
+            <element signature="e#1829#1855#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
