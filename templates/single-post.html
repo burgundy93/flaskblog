@@ -5,28 +5,44 @@
 
 {% block main %}
 
-<body>
-    <section id="content">
-        <div class="container">
-            <div class="row">
+<body class="blog-header">
+	<section class="header-section-full">
+		<div>
+			<h1 class="blog-post-header-text">{{ post.title }} </h1>
+		</div>
+	</section>
 
-                <div class="col-12">
-                       <p><a href="/">go back home</a></p>
-                    <div style="text-align: left;">
+	<section class="blog-post-body">
 
-    <a href="/{{ post.slug }}"><h2>{{ post.title }}</h2></a>
-                        <br>
-    {{ post.content | safe }}
+		<div class="blog-post-content">
+
+			<h3 class="blog-post-time">{{ post.date }}</h3>
+<div class="container">
+	<div class="row">
+
+		<div class="col-12">
+
+{{ post.content | safe }}
+
+		</div>
+	</div>
+
+    <div class="row">
+
+        <div class="back-btn col-12">
+        <a href="/"><button class="silver-flat-button">Go Back</button></a>
+</div>
+
+    </div>
+
 
 </div>
 
-</div>
+		</div>
 
-</div>
-</div>
-        </div>
-    </section>
+
+	</section>
+
 </body>
-
 
 {% endblock %}
