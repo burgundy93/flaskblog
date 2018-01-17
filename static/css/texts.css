@@ -107,7 +107,7 @@ body {
 }
 
 a, a:visited {
-    color: #969696;
+    color: #767676;
     text-decoration: none;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -117,7 +117,7 @@ a, a:visited {
 }
 
 a:hover, a:active {
-    color: #fff;
+    color: #747474;
     text-decoration: none;
 }
 
