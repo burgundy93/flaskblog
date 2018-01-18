@@ -147,6 +147,13 @@ time {
 
 }
 
+        @media (max-width:720px) {
+            .blog-post-content{
+                font-size: 1rem;
+
+            }
+        }
+
 .back-btn {
     text-align: center;
 }
