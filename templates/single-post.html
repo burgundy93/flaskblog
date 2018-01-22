@@ -4,6 +4,12 @@
 
 
 {% block main %}
+{#    twitter button#}
+    <div class="creditlink">
+  <a style="text-decoration: none; color: white;" href="https://twitter.com/ronaldl93_" target="_blank"><button class="creditBTN">Follow me on Twitter</button></a></button>
+      </div>
+
+{#    end of twitter button#}
 
 <body class="blog-header">
 	<section class="header-section-full">
@@ -27,15 +33,34 @@
 		</div>
 	</div>
 
-    <div class="row">
 
-        <div class="back-btn col-12">
-        <a href="/"><button class="silver-flat-button">Go Back</button></a>
-</div>
+    <div class="row">
+        <div class="col-6">
+               <!-- Twitter -->
+    <a href="https://twitter.com/share?url=https://ronaldlangeveld.com/{{ post.slug }}&amp;text={{ post.title }}%20by%20@ronaldl93_" target="_blank">
+        <button class="twitter-flat-button"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+    </a>
+        </div>
+
+                <div class="col-6">
+           <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=https://ronaldlangeveld.com/{{ post.slug }}" target="_blank">
+        <button class="facebook-flat-button"><i class="fa fa-facebook" aria-hidden="true"></i> Post</button>
+    </a>
+
+        </div>
+
+
 
     </div>
 
 
+    <div class="row">
+        <br>
+          <div class="back-btn col-12">
+        <a href="/">Go Back</a>
+</div>
+    </div>
 </div>
 
 		</div>
@@ -44,5 +69,21 @@
 	</section>
 
 </body>
+    <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 {% endblock %}
