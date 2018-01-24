@@ -58,3 +58,6 @@ docs/_build/
 .idea/
 .idea
 .pyc
+
+__pycache__/
+.idea/workspace.xml
