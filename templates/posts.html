@@ -15,11 +15,18 @@
                        <p><a href="/">go back home</a></p>
                     <div style="text-align: left;">
 
-                        {% for post in posts|sort(reverse = true, attribute='date') %}
-    <a href="/posts/{{ post.slug }}"><h2>{{ post.title}}</h2></a>
-{% endfor %}
+{#                        {% for post in posts|sort(reverse = true, attribute='date') %}#}
 
+{#   <p>{{ post.date }} </p> <a href="/posts/{{ post.slug }}"><p> {{ post.title}}</p></a>#}
 
+                            <table style="width:100%">
+                                                        {% for post in posts|sort(reverse = true, attribute='date') %}
+  <tr>
+  <td><a href="/{{ post.slug }}">{{ post.title }}</a></td>
+    <td>{{ post.date }}</td>
+  </tr>
+                                {% endfor %}
+</table>
 </div>
 
 </div>
