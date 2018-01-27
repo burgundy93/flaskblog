@@ -297,3 +297,17 @@ time {
 
             }
         }
+
+
+.creditmobile {
+display: none;
+}
+
+        @media (max-width:720px) {
+            .creditmobile{
+    font-size: 0.8rem;
+    text-align: center;
+                display: block;
+
+            }
+        }
