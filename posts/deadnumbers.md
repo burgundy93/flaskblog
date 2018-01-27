@@ -18,7 +18,7 @@ But as with all things in the world, Telephony companies also had to keep on dev
 **What's next?**
 
 Personally I believe telephone numbers will be next to disappear.
-If I could, I would ditch my phone number TODAY... however, our banks ask for them, when we sign up for online services they often send a verification texts to make sure you're not a robot (yes, we live in an age where we have to prove we're not a robot) and that's about it..... All bullshit really and they should innovate more to find ways alternative ways of verifying people.
+If I could, I would ditch my phone number TODAY... however, our banks ask for them, when we sign up for online services they often send a verification texts to make sure you're not a robot (yes, we live in an age where we have to prove we're not a robot) and that's about it..... All bullshit really and they should innovate more to find alternative ways of verifying people.
 
 But realistically, how often do you give a phone number to another person to contact you? With apps like Telegram, KakaoTalk, Twitter and Facebook, those platforms are fast becoming the norm for contacting your friends and family - and you can contact them using only a simple username. We're still just waiting for Whatsapp to introduce usernames - but I'm pretty sure that will change.
 
