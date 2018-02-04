@@ -50,3 +50,7 @@ def page_not_found(e):
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
 
+# export FLASK_APP=devserver.py
+# export FLASK_DEBUG=1
+# export LC_ALL="en_US.UTF-8"
+# export LC_CTYPE="en_US.UTF-8"

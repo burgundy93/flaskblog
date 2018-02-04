@@ -1,5 +1,8 @@
 /*HOME PAGE STYLE*/
 
+html {
+font-family: 'Roboto', sans-serif;
+}
 
 .head-sect {
   background: url(/static/img/bg.jpg) no-repeat center center fixed;
@@ -11,12 +14,12 @@
 
 }
 
-		@media (max-width:720px) {
-			.head-sect{
-  background: white;
+		/*@media (max-width:720px) {*/
+			/*.head-sect{*/
+  /*background: white;*/
 
-			}
-		}
+			/*}*/
+		/*}*/
 
 
 .black-card {
@@ -24,7 +27,7 @@
 }
 
 .head-text {
-	color: white;
+	color: #000000e3;
 	text-align: center;
 	font-size: 2rem;
 }
@@ -54,7 +57,7 @@
 }*/
 
 .fa {
-	color: white;
+	color: black;
 }
 
 .follow-text {
