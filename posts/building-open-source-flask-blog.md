@@ -3,7 +3,10 @@
 ##author: Ronald ./author
 ##date: 2018/01/18 ./date
 ##slug: building-open-source-flask-blog ./slug
+##image: welcome.gif ./image
 ./VARS -->
+
+
 
 It's a Long post, so TLDR:
 I didn't like existing CMS software, so I started my own project, got going myself, then I tweeted about it, a contributor came along and we got v1 production ready in 3 days without talking much. And it does exactly what I wanted it to do!

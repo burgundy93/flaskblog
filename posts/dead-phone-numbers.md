@@ -3,15 +3,11 @@
 ##author: Ronald ./author
 ##date: 2018/01/27 ./date
 ##slug: dead-phone-numbers ./slug
+##image: bell-telephone.jpg ./image
 ./VARS -->
 
-<meta property="og:description" content=" Telephone Numbers are annoying for everyone and won't exist in a decade." />
 
 > TL:DR - Telephone Numbers are annoying for everyone and won't exist in a decade.
-
-<img style="width: 100%" src="https://am24.akamaized.net/tms/cnt/uploads/2013/03/bell-telephone.jpg">
-
-<meta property="og:image" content="https://am24.akamaized.net/tms/cnt/uploads/2013/03/bell-telephone.jpg" />
 
 The telephone was probably one of the greatest inventions that this planet ever saw. Having the technology to contact almost anyone by simply dialling his/her 10 digit telephone number, was absolutely life changing for people all around the world.
 With the telephone, many industries around the world boomed, which helped infrastructures within countries to become more connected and similar technology helped the internet get going - but also, other industries like postal had to implement new strategies & services in order to survive as letters and telegrams were fast becoming obsolete. Post Offices no longer make their real money from the odd person sending a postcard once in 2 years - they now pretty much rely on individuals and companies shipping big boxes of cargo internationally and getting parcels delivered. That's the only way they can still be profitable.
