@@ -43,6 +43,13 @@ def single_blog(slug):
 def page_not_found(e):
     return render_template('404.html'), 404
 
+@app.route("/play")
+def play():
+
+
+
+    return render_template('play.html')
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
