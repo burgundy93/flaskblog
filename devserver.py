@@ -5,6 +5,8 @@ from flask import render_template
 from jinja2 import Template
 import os
 from . utils import PostsParser
+from graphqlclient import GraphQLClient
+import json
 
 app = Flask(__name__)
 
@@ -45,10 +47,28 @@ def single_blog(slug):
 
 @app.route("/play")
 def play():
+    access_token = "7e0118b3603a7c3a54435db7"
+    bearer_token = 'Bearer ' + access_token
+    headers = {'Authorization': bearer_token}
 
+    client = GraphQLClient("https://wip.chat/graphql")
+    client.inject_token(bearer_token)
 
+    result = client.execute('''
 
-    return render_template('play.html')
+    query{
+      user(id: "73") {
+        username
+        products {
+          name
+          id
+        }
+      }
+    }
+    ''')
+
+    products = json.loads(result)
+    return render_template('play.html', data=products)
 
 
 @app.errorhandler(404)
