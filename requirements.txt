@@ -2,3 +2,4 @@ flask
 markdown2
 Flask-Markdown
 graphqlclient
+requests
