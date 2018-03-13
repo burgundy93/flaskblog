@@ -1,4 +1,5 @@
 import os
+import requests
 from flask import Flask
 from flask import render_template
 from jinja2 import Template
@@ -40,6 +41,14 @@ def single_blog(slug):
             return render_template('single-post.html', post=post)
 
     return page_not_found(404)
+
+
+@app.route("/play")
+def play():
+
+
+
+    return render_template('play.html')
 
 
 @app.errorhandler(404)

@@ -5,34 +5,29 @@
 
 {#    <a href="/"><img class="profile-pic" src="/static/img/profile.jpg"></a>#}
 <body class="head-sect">
-	<section>
-		<div class="container">
+
+<section>
 
 			<div class="row">
-				<div class="col-12">
-
-
-<h1 class="head-text">Hi, I'm Ronald</h1>
+            <div class="col-12">
+                <div>
+                    <h1 class="head-text">Hi, I'm Ronald</h1>
 
 <br>
 
 	<h2 class="head-text">
-		I'm an Indie Web Developer and Maker from Durban.
+		I'm an Indie Web Developer.
 	</h2>
 
 
 
 
 	<h3 class="head-text">
-I was recently involved in making <a href="https://downtimebot.com/" target="_blank">Downtime Bot</a>, <a href="https://thatvisa.com/" target="_blank">ThatVisa</a>, <a href="https://techwork.co.za/" target="_blank">Tech Work</a> and <a href="https://ronaldlangeveld.com/building-open-source-flask-blog" target="_blank">Flat File Flask Blog</a>.
+I recently made <a href="https://downtimebot.com/" target="_blank">Downtime Bot</a>, <a href="https://thatvisa.com/" target="_blank">ThatVisa</a>, <a href="https://techwork.co.za/" target="_blank">Tech Work</a> and <a href="https://ronaldlangeveld.com/building-open-source-flask-blog" target="_blank">Flat File Flask Blog</a>.
 	</h3>
 
-
-
-	<h3 class="head-text">
-I have a small <i class="fa fa-youtube" aria-hidden="true"></i> <a href="https://www.youtube.com/channel/UCN3QMklfukKgFJLiIZ1Oawg" target="_blank">channel</a> with over 100,000 hits
-	</h3>
-
+                    <h2 class="head-text"><a href="/posts">READ MY BLOG</a></h2>
+                       <h2 class="head-text"><a href="/play">Visit my Playground</a></h2>
 
 
                     	<div class="follow-text">
@@ -43,30 +38,10 @@ I have a small <i class="fa fa-youtube" aria-hidden="true"></i> <a href="https:/
         <p style="color: black">if you can't send me a DM on twitter feel free to email me at <a href="mailto:hi@ronaldlangeveld.com">hi@ronaldlangeveld.com</a></p>
 </div>
                     <div class="follow-text">
-        <p style="color: black"><a href="/posts">Check out all my blog posts</a></p>
-</div>
-				</div>
-			</div>
 
 </div>
-</section>
-
-<section>
-
-			<div class="row">
-				<div class="col-12">
-                    {% for post in posts|sort(reverse = true, attribute='date') %}
-<div class="blog-card">
-<div class="time-tag">
-	<time style="text-align: center" class="timeago" datetime="{{ post.date }}">{{ post.date }}</time>
-</div>
-<h1 class="blog-head-text"><a class="blog-link-style" href="/{{ post.slug }}"> {{ post.title }}</a></h1>
-</div>
-<br>
-                    {% endfor %}
-
-
-				</div>
+                </div>
+            </div>
 
 
 			</div>

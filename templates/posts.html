@@ -32,15 +32,21 @@ Peace!
                     <div style="text-align: left;">
 
 <p>Hi, I'm Ronald and I'm an Indie Web Developer and Maker.</p>
-                    <p>Here's a list of everything I've written on this blog so far.</p>
+                    <p>Here's some of my blog posts.</p>
 
-                            <table style="width:100%">
-                                                        {% for post in posts|sort(reverse = true, attribute='date') %}
-  <tr>
-  <td><a href="/{{ post.slug }}">{{ post.title }}</a></td>
-    <td>{{ post.date }}</td>
-  </tr>
-                                {% endfor %}
+				<div class="col-12">
+                    {% for post in posts|sort(reverse = true, attribute='date') %}
+<div class="blog-card">
+<div class="time-tag">
+	<time style="text-align: center" class="timeago" datetime="{{ post.date }}">{{ post.date }}</time>
+</div>
+<h1 class="blog-head-text"><a class="blog-link-style" href="/{{ post.slug }}"> {{ post.title }}</a></h1>
+</div>
+<br>
+                    {% endfor %}
+
+
+				</div>
 </table>
 </div>
 
