@@ -27,17 +27,27 @@ Peace!
             <div class="row">
 
                 <div class="col-12">
+                                       <p><a href="/">go back home</a></p>
 
                     <h1>Playground</h1>
                     <h2>This is my public experimental section. Here I will play with multiple API's and so forth. Gotta keep on learning how stuff works.</h2>
 
                     <hr>
                     <div class="col-6">
-                        <h2>BUILDING IN PUBLIC</h2>
+                        <h2>Building in Public on WIP</h2>
                         {% for a in data['data']['user']['products'] %}
                         <h2><a href="https://wip.chat/products/{{ a.id }}" target="_blank">{{ a.name }}</a></h2>
                         {% endfor %}
                     </div>
+                <div class="col-6">
+
+                    <h1>What I'm listening to on Spotify</h1>
+                    {% for b in music['track'] %}
+                    <h2>{{ b.name }} by {{ b.artist['#text']}}</h2>
+                    {% endfor %}
+
+
+                </div>
                 </div>
             </div>
         </div>

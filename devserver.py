@@ -49,7 +49,6 @@ def single_blog(slug):
 def play():
     access_token = "7e0118b3603a7c3a54435db7"
     bearer_token = 'Bearer ' + access_token
-    headers = {'Authorization': bearer_token}
 
     client = GraphQLClient("https://wip.chat/graphql")
     client.inject_token(bearer_token)
@@ -68,7 +67,18 @@ def play():
     ''')
 
     products = json.loads(result)
-    return render_template('play.html', data=products)
+
+    url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=ronald911&limit=10&api_key=b45188c880a0f2f08c244f72d92d011d&format=json"
+
+    r = requests.get(url)
+
+    raw = r.json()
+
+    data = json.dumps(raw["recenttracks"])
+
+    songs = json.loads(data)
+
+    return render_template('play.html', data=products, music=songs)
 
 
 @app.errorhandler(404)

@@ -1,31 +1,15 @@
-from graphqlclient import GraphQLClient
+import requests
 import json
 
-access_token = "7e0118b3603a7c3a54435db7"
-bearer_token = 'Bearer ' + access_token
-headers = {'Authorization': bearer_token}
+url ="http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=ronald911&api_key=b45188c880a0f2f08c244f72d92d011d&format=json"
 
-client = GraphQLClient("https://wip.chat/graphql")
-client.inject_token(bearer_token)
+r = requests.get(url)
 
+raw = r.json()
 
-result = client.execute('''
+data = json.dumps(raw["recenttracks"])
 
-query{
-  user(id: "73") {
-    username
-    products {
-      name
-      id
-    }
-  }
-}
+loaded = json.loads(data)
 
-''')
-
-products = json.loads(result)
-
-for a in products['data']['user']['products']:
-    name = a["name"]
-    id = a['id']
-    print(a)
+for a in loaded["track"]:
+    print(a['image'][1]['#text'])
