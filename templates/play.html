@@ -34,7 +34,7 @@ Peace!
 
                     <hr>
                     <div class="col-6">
-                        <h2>Building in Public on WIP</h2>
+                        <h1>Building in Public on WIP</h1>
                         {% for a in data['data']['user']['products'] %}
                         <h2><a href="https://wip.chat/products/{{ a.id }}" target="_blank">{{ a.name }}</a></h2>
                         {% endfor %}
@@ -42,9 +42,24 @@ Peace!
                 <div class="col-6">
 
                     <h1>What I'm listening to on Spotify</h1>
-                    {% for b in music['track'] %}
-                    <h2>{{ b.name }} by {{ b.artist['#text']}}</h2>
-                    {% endfor %}
+
+{#                    <h2>{{ b.name }} by {{ b.artist['#text']}}</h2>#}
+                        <table style="width:100%">
+{#  <tr>#}
+{#    <th> </th>#}
+{#    <th>Song</th>#}
+{#    <th>Artist</th>#}
+{#  </tr>#}
+                                            {% for b in music['track'] %}
+  <tr>
+    <td><img src="{{ b.image[0]['#text'] }}" alt=""></td>
+    <td>{{ b.name }}</td>
+    <td>{{ b.artist['#text'] }}</td>
+
+  </tr>
+                                                {% endfor %}
+</table>
+
 
 
                 </div>
