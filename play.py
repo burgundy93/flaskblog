@@ -10,6 +10,3 @@ raw = r.json()
 data = json.dumps(raw["recenttracks"])
 
 loaded = json.loads(data)
-
-for a in loaded["track"]:
-    print(a['url'])
