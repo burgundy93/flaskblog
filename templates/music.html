@@ -27,7 +27,7 @@ Peace!
             <p><a href="/">go back home</a></p>
             <div class="col-12">
 
-<h1>Last 100 Songs Listened to on <a href="https://open.spotify.com/user/11121313066?si=LZY6Y7RvSmWajuSY_w9Ylg" target="_blank">Spotify</a></h1>
+<h1>Last 100 Songs Listened to on <a href="https://open.spotify.com/user/11121313066?si=LZY6Y7RvSmWajuSY_w9Ylg/?ref=ronaldlangeveld.com" target="_blank">Spotify</a></h1>
 
 {#                    <h2>{{ b.name }} by {{ b.artist['#text']}}</h2>#}
                         <table style="width:100%">
@@ -39,7 +39,7 @@ Peace!
                                             {% for b in music['track'] %}
   <tr>
     <td><img src="{{ b.image[1]['#text'] }}" alt=""></td>
-      <td><h2><a href="{{ b.url }}" target="_blank">{{ b.name }}</a></h2></td>
+      <td><h2><a href="{{ b.url }}/?ref=ronaldlangeveld.com" target="_blank">{{ b.name }}</a></h2></td>
       <td><h2><a href="http://www.google.com/search?q={{ b.artist['#text'] }}" target="_blank">{{ b.artist['#text'] }}</a></h2></td>
 
   </tr>
