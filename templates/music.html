@@ -1,0 +1,60 @@
+<!---
+     -----------------------------/ ^^^^^^^ \
+   /                             |  | * * |  |
+  / |   )                   |  ||\__/  @  \__/
+\/   \ / /----------\______/ \ //     '-'
+      ||=|=                   ||=|=
+
+This blog was created by me.
+I also co-created a super easy CMS, that makes writing themes really easy.
+www.ronaldlangeveld.com
+If you find any bugs, please tweet me @ronaldlangeveld
+
+Peace!
+--->
+
+
+{# Complete list of posts #}
+
+{% extends "base.html" %}
+
+
+{% block main %}
+
+    <body>
+    <div class="container">
+        <div class="row">
+            <p><a href="/">go back home</a></p>
+            <div class="col-12">
+
+<h1>Last 100 Songs Listened to on <a href="https://open.spotify.com/user/11121313066?si=LZY6Y7RvSmWajuSY_w9Ylg" target="_blank">Spotify</a></h1>
+
+{#                    <h2>{{ b.name }} by {{ b.artist['#text']}}</h2>#}
+                        <table style="width:100%">
+{#  <tr>#}
+{#    <th> </th>#}
+{#    <th>Song</th>#}
+{#    <th>Artist</th>#}
+{#  </tr>#}
+                                            {% for b in music['track'] %}
+  <tr>
+    <td><img src="{{ b.image[1]['#text'] }}" alt=""></td>
+      <td><h2><a href="{{ b.url }}" target="_blank">{{ b.name }}</a></h2></td>
+      <td><h2><a href="http://www.google.com/search?q={{ b.artist['#text'] }}" target="_blank">{{ b.artist['#text'] }}</a></h2></td>
+
+  </tr>
+                                            {% endfor %}
+</table>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    </body>
+
+{% endblock %}

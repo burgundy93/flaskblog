@@ -47,6 +47,32 @@ def single_blog(slug):
 
 @app.route("/play")
 def play():
+
+
+    return render_template('play.html')
+
+
+@app.route("/play/music")
+def music():
+
+
+    url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=ronald911&limit=100&api_key=b45188c880a0f2f08c244f72d92d011d&format=json"
+
+    r = requests.get(url)
+
+    raw = r.json()
+
+    data = json.dumps(raw["recenttracks"])
+
+    songs = json.loads(data)
+
+    return render_template('music.html', music=songs)
+
+
+@app.route("/open")
+def open():
+
+
     access_token = "7e0118b3603a7c3a54435db7"
     bearer_token = 'Bearer ' + access_token
 
@@ -68,17 +94,7 @@ def play():
 
     products = json.loads(result)
 
-    url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=ronald911&limit=10&api_key=b45188c880a0f2f08c244f72d92d011d&format=json"
-
-    r = requests.get(url)
-
-    raw = r.json()
-
-    data = json.dumps(raw["recenttracks"])
-
-    songs = json.loads(data)
-
-    return render_template('play.html', data=products, music=songs)
+    return render_template('open.html', data=products)
 
 
 @app.errorhandler(404)
