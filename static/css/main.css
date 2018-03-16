@@ -1,7 +1,7 @@
 /*HOME PAGE STYLE*/
 
 html {
-font-family: 'Roboto', sans-serif;
+font-family: 'Nunito', sans-serif;
 }
 
 .head-sect {
@@ -30,6 +30,7 @@ font-family: 'Roboto', sans-serif;
 	color: #000000e3;
 	text-align: center;
 	font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .profile-pic {
@@ -63,18 +64,21 @@ font-family: 'Roboto', sans-serif;
 .follow-text {
 	font-size: 1rem;
 	text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .blog-head-text {
 	color: white;
 	text-align: center;
 	font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .time-tag {
 	color: white;
 	text-align: center;
 	font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
 }
 time {
 	color: white;
@@ -127,6 +131,7 @@ time {
     -webkit-margin-end: 0px;
     color: white;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .blog-post-body {
@@ -138,6 +143,7 @@ time {
 .blog-post-time {
 	color: black;
 	text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -147,12 +153,14 @@ time {
 	padding: 0 1rem;
     font-size: 1.7rem;
 	color: black;
+    font-family: 'Nunito', sans-serif;
 
 }
 
         @media (max-width:720px) {
             .blog-post-content{
                 font-size: 1rem;
+
 
             }
         }
@@ -230,6 +238,7 @@ time {
     cursor: pointer;
     float: left;
     text-decoration: none;
+    font-family: 'Nunito', sans-serif;
 }
 
 .creditBTN:hover {
