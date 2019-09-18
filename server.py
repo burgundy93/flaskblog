@@ -8,6 +8,7 @@ from graphqlclient import GraphQLClient
 import json
 import requests
 
+port = int(os.environ.get('PORT', 5000))
 app = Flask(__name__)
 
 # template_dir = os.path.abspath('templates/')
